@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer II",
+    "company": "Thales",
+    "duration": "Apr 2023 - Present",
+    "location": "New Delhi, India",
+    "description": "Led full-stack development of Spirit Airlines' In-Flight Entertainment (IFE) OTT platform serving thousands of daily passengers, receiving outstanding user satisfaction ratings.",
+    "achievements": [
+      "Architected and implemented mission-critical streaming infrastructure using NodeJS and Golang backend with React/TypeScript frontend, ensuring performance at scale",
+      "Championed DevOps integration by creating automated CI/CD pipelines with Jenkins, reducing deployment time by 65% and enabling rapid feature delivery",
+      "Implemented comprehensive testing architecture combining Jest, React Testing Library, Cypress, and Percy for visual regression testing, maintaining 90%+ test coverage",
+      "Directed code quality initiatives through systematic peer reviews and architectural governance, establishing coding standards that improved maintainability by 40%",
+      "Participated in agile development processes, contributing to sprint planning and retrospectives"
+    ],
+    "technologies": ["React", "Strapi", "Golang", "Node.js", "TypeScript", "Tailwind CSS", "Redux", "Storybook"]
+  },
+  {
+    "id": 2,
+    "title": "Software Engineer",
+    "company": "Thales",
+    "duration": "Aug 2022 - Apr 2023",
+    "location": "New Delhi, India",
+    "description": "Engineered core components of the In-Flight Entertainment (IFE) platform using React, TypeScript and Storybook, creating a modular architecture that accelerated development velocity",
+    "achievements": [
+      "Established robust test-driven development practices that reduced production bugs by 75%",
+      "Optimized application performance through strategic code refactoring, reducing load times by 30%",
+      "Collaborated with UX designers to implement responsive interfaces ensuring seamless user experience across multiple device configurations"
+    ],
+    "technologies": ["React", "Golang", "TypeScript", "Tailwind CSS", "Redux", "Selenium", "Cypress", "Storybook"]
+  },
+  {
+    "id": 3,
+    "title": "Software Engineer Intern",
+    "company": "Guavus, a Thales company",
+    "duration": "Jan 2022 - Aug 2022",
+    "location": "Gurgaon, India",
+    "description": "Developed and maintained full-stack applications using MERN stack. Implemented RESTful APIs and optimized database queries for better performance.",
+    "achievements": [
+      "Created reusable UI components that were implemented across multiple product interfaces",
+      "Implemented CI/CD pipeline using GitHub Actions"
+    ],
+    "technologies": ["React", "Docker", "Helm Charts", "k8s"]
+  }
+]

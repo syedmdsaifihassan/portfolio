@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Real-time Chat Application",
+    "description": "A WhatsApp-inspired real-time messaging application with user authentication, instant messaging, and responsive design. Features include message history, user status, and seamless real-time communication.",
+    "technologies": ["React", "Next.js", "Firebase", "Tailwind CSS"],
+    "github": "https://github.com/syedmdsaifihassan/whatsapp-chat-clone",
+    "demo": "https://whatsapp-chat-theta.vercel.app/",
+    "gradient": "#10b981, #0d9488",
+    "displayName": "Chat App"
+  },
+  {
+    "id": 2,
+    "title": "Expense Tracker",
+    "description": "A comprehensive expense tracking application that helps users monitor their spending habits. Features include expense categorization, budget management, visual charts, and financial insights to promote better money management.",
+    "technologies": ["React", "Chart.js", "Local Storage", "Tailwind CSS"],
+    "github": "https://github.com/syedmdsaifihassan/Expense-Tracker",
+    "demo": "https://syedmdsaifihassan.github.io/Expense-Tracker/",
+    "gradient": "#3b82f6, #9333ea",
+    "displayName": "Expense Tracker"
+  },
+  {
+    "id": 3,
+    "title": "Task Management App",
+    "description": "A collaborative productivity application for team task management with real-time updates. Includes features like task assignment, progress tracking, deadline management, and team collaboration tools.",
+    "technologies": ["React", "Socket.io", "Node.js", "MongoDB"],
+    "github": "https://github.com/syedmdsaifihassan/Todo-list",
+    "demo": "https://syedmdsaifihassan.github.io/Todo-list/",
+    "gradient": "#f97316, #dc2626",
+    "displayName": "Task Manager"
+  }
+]

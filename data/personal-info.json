@@ -1,0 +1,45 @@
+{
+  "name": "Md Saifi Hassan",
+  "title": "Full Stack Software Engineer",
+  "description": "Full Stack Software Engineer with 3+ years of experience building scalable web applications",
+  "location": "New Delhi, India",
+  "experience": "3+ Years Experience",
+  "status": "Available for Hire",
+  "email": "syedsaifihassan@gmail.com",
+  "github": "https://github.com/syedmdsaifihassan",
+  "linkedin": "https://www.linkedin.com/in/syedmdsaifihassan/",
+  "resume": "/Md_Saifi_Resume_SDE_React.pdf",
+  "profileImage": "/profile.jpg",
+  "heroBackground": "/hero-section.jpg",
+  "about": {
+    "description1": "As a software engineer with 3+ years in the industry, I've worked extensively with React, Node.js, and Golang to build production-ready applications. My experience spans from developing In-Flight Entertainment systems at Thales to creating scalable web platforms that serve thousands of users daily.",
+    "description2": "I started my career after completing my B.Tech in Computer Science, where I won Smart India Hackathon twice. Since then, I've focused on full-stack development, working with modern technologies like Next.js, TypeScript, and cloud platforms. I enjoy tackling complex technical challenges and building software that performs well at scale.",
+    "traits": ["Full-Stack Development", "System Architecture", "Performance Optimization", "Code Quality"],
+    "specialties": [
+      {
+        "icon": "Code",
+        "title": "Frontend",
+        "description": "React, Next.js, TypeScript",
+        "color": "text-blue-600"
+      },
+      {
+        "icon": "Database",
+        "title": "Backend",
+        "description": "Node.js, Python, APIs",
+        "color": "text-green-600"
+      },
+      {
+        "icon": "Globe",
+        "title": "Web",
+        "description": "Responsive, Accessible",
+        "color": "text-purple-600"
+      },
+      {
+        "icon": "Smartphone",
+        "title": "Mobile",
+        "description": "Progressive Web Apps",
+        "color": "text-orange-600"
+      }
+    ]
+  }
+}

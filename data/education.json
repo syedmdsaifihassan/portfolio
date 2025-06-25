@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "degree": "Bachelor of Technology in Computer Science",
+    "institution": "Dr A.P.J Abdul Kalam Technical University, Lucknow",
+    "duration": "2019 - 2022",
+    "percentage": "78%",
+    "description": "Completed B.Tech through lateral entry in the second year, leveraging my diploma foundation to excel in advanced computer science concepts. Specialized in software engineering, system design, and emerging technologies while actively participating in competitive programming and technical leadership roles.",
+    "coursework": [
+      "Advanced Data Structures & Algorithms",
+      "Software Engineering & Design Patterns",
+      "Database Management Systems",
+      "Computer Networks & Security",
+      "Operating Systems",
+      "Web Technologies & Frameworks",
+      "Object-Oriented Programming",
+      "System Analysis & Design",
+      "Mobile Application Development",
+      "Software Testing & Quality Assurance"
+    ],
+    "achievements": [
+      "Maintained consistent academic excellence with 78% overall grade",
+      "Winner of Smart India Hackathon 2020 & 2021 - National level competition",
+      "Delivered Peer Training sessions on Android Development with Java at GNIOT",
+      "Served as Designer Lead of Computer Science Club, organizing technical events",
+      "Developed multiple full-stack projects demonstrating industry-ready skills",
+      "Gained expertise in modern software development methodologies and best practices"
+    ]
+  },
+  {
+    "id": 2,
+    "degree": "Diploma in Computer Engineering",
+    "institution": "Jamia Millia Islamia, New Delhi",
+    "duration": "2016 - 2019",
+    "percentage": "74%",
+    "description": "Completed a comprehensive 3-year diploma program focusing on computer engineering fundamentals, programming concepts, and practical application development. Built a strong foundation in software development and computer systems.",
+    "coursework": [
+      "Programming Fundamentals",
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Database Management Systems",
+      "Computer Networks",
+      "Software Engineering",
+      "Web Technologies",
+      "Object-Oriented Programming"
+    ],
+    "achievements": [
+      "Mastered core programming languages including C, C++, and Java",
+      "Developed strong foundation in data structures and algorithmic thinking",
+      "Gained practical experience in operating systems and system programming",
+      "Built multiple projects demonstrating full-stack development skills",
+      "Achieved consistent academic performance with 74% overall grade"
+    ]
+  }
+]

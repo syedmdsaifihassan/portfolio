@@ -1,0 +1,87 @@
+{
+  "categories": [
+    {
+      "title": "Frontend Development",
+      "skills": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Sass",
+        "Redux",
+        "React Router",
+        "Material-UI",
+        "Bootstrap"
+      ]
+    },
+    {
+      "title": "Backend Development",
+      "skills": [
+        "Golang",
+        "Node.js",
+        "Express.js",
+        "Java",
+        "Spring Boot",
+        "Spring Framework",
+        "Spring Security",
+        "RESTful APIs",
+        "GraphQL",
+        "Microservices"
+      ]
+    },
+    {
+      "title": "Database & Storage",
+      "skills": ["PostgreSQL", "MongoDB", "MySQL", "Firebase", "Redis", "Elasticsearch", "Amazon S3", "Database Design"]
+    },
+    {
+      "title": "Programming Languages",
+      "skills": ["JavaScript", "TypeScript", "Java", "Golang", "Python", "C/C++", "SQL"]
+    },
+    {
+      "title": "Full Stack Technologies",
+      "skills": [
+        "MERN Stack",
+        "React + Node.js",
+        "Java + React",
+        "Spring Boot + React",
+        "Golang + React",
+        "Next.js Full Stack"
+      ]
+    },
+    {
+      "title": "Core Fundamentals",
+      "skills": [
+        "Data Structures & Algorithms",
+        "Problem Solving",
+        "Object-Oriented Programming",
+        "System Design",
+        "Design Patterns",
+        "Clean Code"
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "skills": ["Git", "Docker", "Jenkins", "AWS", "Vercel", "Postman", "Linux", "CI/CD", "GitHub Actions"]
+    },
+    {
+      "title": "Testing & Quality",
+      "skills": [
+        "Jest",
+        "Cypress",
+        "JUnit",
+        "Mockito",
+        "React Testing Library",
+        "Test-Driven Development",
+        "Unit Testing",
+        "Integration Testing"
+      ]
+    },
+    {
+      "title": "Development Tools",
+      "skills": ["VS Code", "IntelliJ IDEA", "Figma", "Swagger", "Maven", "npm/yarn", "Webpack", "Babel"]
+    }
+  ]
+}
