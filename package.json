@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "cp next.config.prod.mjs next.config.mjs && next build",
-    "build:dev": "cp next.config.dev.mjs next.config.mjs && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gh-pages": "pnpm build"
+    "gh-pages": "next build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",

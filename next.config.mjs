@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
+
 const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
@@ -7,18 +9,20 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
-  
-  // Only apply static export settings during build, not dev
-  ...(process.env.NODE_ENV === 'production' && {
-    output: 'export',
+  ...(isProd && {
+    output: "export",
     trailingSlash: true,
-    skipTrailingSlashRedirect: true,
-    distDir: 'out',
-    basePath: '/portfolio',
-    assetPrefix: '/portfolio/',
+    distDir: "out",
+    basePath: "/portfolio",
+    assetPrefix: "/portfolio/",
   }),
-}
 
-export default nextConfig
+  // inside next.config.mjs
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? "/portfolio" : "",
+  },
+};
+
+export default nextConfig;
