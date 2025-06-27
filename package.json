@@ -8,8 +8,7 @@
     "build:dev": "cp next.config.dev.mjs next.config.mjs && next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "gh-pages": "pnpm build && pnpm export"
+    "gh-pages": "pnpm build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
