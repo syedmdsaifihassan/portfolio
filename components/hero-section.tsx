@@ -129,10 +129,14 @@ export default function HeroSection({ personalInfo, darkMode }: HeroSectionProps
               <div key={index} className="bg-white/5 dark:bg-gray-800/50 p-3 rounded-lg shadow-sm transition-transform hover:scale-[1.02] aspect-square size-36">
                 <a href={blog.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center space-y-2 h-full">
                   <div className="relative size-36">
-                    <img
-                      src={darkMode && blog.iconDark ? blog.iconDark : blog.icon}
-                      alt={`${blog.name} Logo`}
-                      className="size-36"
+                    <div
+                      style={{
+                        backgroundImage: `url('${darkMode && blog.iconDark ? blog.iconDark : blog.icon}')`,
+                        backgroundSize: "contain",
+                        backgroundPosition: "center",
+                        backgroundRepeat: "no-repeat",
+                      }}
+                      className="w-full h-full"
                     />
                     <span className="text-lg font-medium">{blog.name}</span>
                   </div>
