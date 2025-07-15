@@ -5,18 +5,27 @@ import { MapPin, Calendar, Briefcase, Download } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
+interface Blog {
+  name: string;
+  url: string;
+  icon: string;
+  iconDark?: string;
+  color: string;
+}
+
 interface PersonalInfo {
-  name: string
-  title: string
-  description: string
-  location: string
-  experience: string
-  status: string
-  profileImage: string
-  heroBackground: string
-  resume: string
-  email: string
-  github: string
+  name: string;
+  title: string;
+  description: string;
+  location: string;
+  experience: string;
+  status: string;
+  profileImage: string;
+  heroBackground: string;
+  resume: string;
+  email: string;
+  github: string;
+  blogs: Blog[];
 }
 
 interface HeroSectionProps {
@@ -111,6 +120,28 @@ export default function HeroSection({ personalInfo, darkMode }: HeroSectionProps
             Resume
           </Button>
         </div>
+        
+        {/* Blog Links Section */}
+        <div className="mt-16 space-y-4">
+          <h3 className="text-xl font-semibold">My Blogs</h3>
+          <div className="flex flex-row justify-center gap-12">
+            {personalInfo.blogs.map((blog, index) => (
+              <div key={index} className="bg-white/5 dark:bg-gray-800/50 p-3 rounded-lg shadow-sm transition-transform hover:scale-[1.02] aspect-square size-36">
+                <a href={blog.url} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center justify-center space-y-2 h-full">
+                  <div className="relative size-36">
+                    <img
+                      src={darkMode && blog.iconDark ? blog.iconDark : blog.icon}
+                      alt={`${blog.name} Logo`}
+                      className="size-36"
+                    />
+                    <span className="text-lg font-medium">{blog.name}</span>
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+
       </div>
     </section>
   );

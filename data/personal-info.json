@@ -11,6 +11,22 @@
   "resume": "/Md_Saifi_Resume_SDE_React.pdf",
   "profileImage": "/profile.jpg",
   "heroBackground": "/hero-section.jpg",
+  "blogs": [
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@syedsaifihassan",
+      "icon": "/Medium-Icon-Black.png",
+      "iconDark": "/Medium-Icon-White.png",
+      "color": "text-gray-700 dark:text-gray-300"
+    },
+    {
+      "name": "Dev",
+      "url": "https://dev.to/syedmdsaifihassan",
+      "icon": "/dev-community-black.png",
+      "iconDark": "/dev-community-white.png",
+      "color": "text-blue-600"
+    }
+  ],
   "about": {
     "description1": "As a software engineer with 3+ years in the industry, I've worked extensively with React, Node.js, and Golang to build production-ready applications. My experience spans from developing In-Flight Entertainment systems at Thales to creating scalable web platforms that serve thousands of users daily.",
     "description2": "I started my career after completing my B.Tech in Computer Science, where I won Smart India Hackathon twice. Since then, I've focused on full-stack development, working with modern technologies like Next.js, TypeScript, and cloud platforms. I enjoy tackling complex technical challenges and building software that performs well at scale.",
