@@ -43,11 +43,13 @@ export default function ProjectsSection({ projects }: ProjectsSectionProps) {
                         <Github className="w-4 h-4" />
                       </a>
                     </Button>
-                    <Button variant="ghost" size="icon" asChild>
-                      <a href={project.demo} target="_blank" rel="noreferrer">
-                        <ExternalLink className="w-4 h-4" />
-                      </a>
-                    </Button>
+                    {project.demo && (
+                      <Button variant="ghost" size="icon" asChild>
+                        <a href={project.demo} target="_blank" rel="noreferrer">
+                          <ExternalLink className="w-4 h-4" />
+                        </a>
+                      </Button>
+                    )}
                   </div>
                 </CardTitle>
                 <CardDescription>{project.description}</CardDescription>

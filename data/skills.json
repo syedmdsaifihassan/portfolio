@@ -10,10 +10,10 @@
         "HTML5",
         "CSS3",
         "Tailwind CSS",
-        "Sass",
+        "Material-UI",
         "Redux",
         "React Router",
-        "Material-UI",
+        "Sass",
         "Bootstrap"
       ]
     },
@@ -26,10 +26,11 @@
         "Java",
         "Spring Boot",
         "Spring Framework",
-        "Spring Security",
         "RESTful APIs",
         "GraphQL",
-        "Microservices"
+        "Microservices",
+        "Event-driven Architecture",
+        "WebSocket"
       ]
     },
     {
@@ -45,10 +46,10 @@
       "skills": [
         "MERN Stack",
         "React + Node.js",
-        "Java + React",
-        "Spring Boot + React",
         "Golang + React",
-        "Next.js Full Stack"
+        "Next.js Full Stack",
+        "Java + React",
+        "Spring Boot + React"
       ]
     },
     {
@@ -71,6 +72,7 @@
       "skills": [
         "Jest",
         "Cypress",
+        "Percy",
         "JUnit",
         "Mockito",
         "React Testing Library",

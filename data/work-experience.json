@@ -1,45 +1,60 @@
 [
   {
     "id": 1,
-    "title": "Software Engineer II",
+    "title": "Software Engineer III",
     "company": "Thales",
-    "duration": "Apr 2023 - Present",
-    "location": "New Delhi, India",
-    "description": "Led full-stack development of Spirit Airlines' In-Flight Entertainment (IFE) OTT platform serving thousands of daily passengers, receiving outstanding user satisfaction ratings.",
+    "duration": "Apr 2024 - Present",
+    "location": "Noida, India",
+    "description": "Leading full-stack development of In-Flight Entertainment platforms for global airlines at Thales.",
     "achievements": [
-      "Architected and implemented mission-critical streaming infrastructure using NodeJS and Golang backend with React/TypeScript frontend, ensuring performance at scale",
-      "Championed DevOps integration by creating automated CI/CD pipelines with Jenkins, reducing deployment time by 65% and enabling rapid feature delivery",
-      "Implemented comprehensive testing architecture combining Jest, React Testing Library, Cypress, and Percy for visual regression testing, maintaining 90%+ test coverage",
-      "Directed code quality initiatives through systematic peer reviews and architectural governance, establishing coding standards that improved maintainability by 40%",
-      "Participated in agile development processes, contributing to sprint planning and retrospectives"
+      "Led full-stack development of In-Flight Entertainment (IFE) platforms for Spirit Airlines, Delta Air Lines, Emirates, and Air India, including an onboard advertising solution serving millions of passengers",
+      "Architected a content ingestion pipeline as a suite of Spring Boot microservices, enabling airline onboarding without cross-service modifications and improving system modularity",
+      "Developed responsive React and TypeScript frontends optimized for low-powered seatback hardware and intermittent connectivity, improving passenger-facing UI performance by 30%",
+      "Overhauled Jenkins CI/CD pipelines, reducing deployment times by 65% and improving release reliability",
+      "Instituted structured code reviews and architecture walkthroughs, increasing codebase consistency and developer velocity across cross-functional teams"
     ],
-    "technologies": ["React", "Strapi", "Golang", "Node.js", "TypeScript", "Tailwind CSS", "Redux", "Storybook"]
+    "technologies": ["React", "TypeScript", "Spring Boot", "Java", "Jenkins", "Docker", "Microservices"]
   },
   {
     "id": 2,
-    "title": "Software Engineer",
+    "title": "Software Engineer II",
     "company": "Thales",
-    "duration": "Aug 2022 - Apr 2023",
-    "location": "New Delhi, India",
-    "description": "Engineered core components of the In-Flight Entertainment (IFE) platform using React, TypeScript and Storybook, creating a modular architecture that accelerated development velocity",
+    "duration": "Apr 2023 - Apr 2024",
+    "location": "Noida, India",
+    "description": "Full-stack contributor to the IFE OTT platform at Thales.",
     "achievements": [
-      "Established robust test-driven development practices that reduced production bugs by 75%",
-      "Optimized application performance through strategic code refactoring, reducing load times by 30%",
-      "Collaborated with UX designers to implement responsive interfaces ensuring seamless user experience across multiple device configurations"
+      "Contributed to the IFE OTT platform across the full stack, developing Golang REST APIs alongside React/TypeScript frontend features",
+      "Established coding standards and led architectural governance initiatives through peer reviews, improving codebase maintainability by 40% and reducing technical debt",
+      "Collaborated in Agile/Scrum ceremonies including sprint planning, standups, and retrospectives within a distributed engineering team"
     ],
-    "technologies": ["React", "Golang", "TypeScript", "Tailwind CSS", "Redux", "Selenium", "Cypress", "Storybook"]
+    "technologies": ["React", "TypeScript", "Golang", "RESTful APIs", "Agile", "Scrum"]
   },
   {
     "id": 3,
+    "title": "Software Engineer I",
+    "company": "Thales",
+    "duration": "Aug 2022 - Apr 2023",
+    "location": "Noida, India",
+    "description": "Frontend-focused engineer building reusable UI systems for IFE platforms at Thales.",
+    "achievements": [
+      "Built modular, reusable UI component libraries in React, TypeScript, and Storybook to standardize design patterns across IFE platforms",
+      "Championed test-driven development (TDD) practices using Jest and React Testing Library, driving a 75% reduction in production bug rates over subsequent quarters",
+      "Identified and resolved performance bottlenecks through profiling and targeted refactoring, reducing page load times by 30%",
+      "Partnered with UX designers to ensure pixel-accurate, accessible implementations across diverse screen sizes and hardware configurations"
+    ],
+    "technologies": ["React", "TypeScript", "Storybook", "Jest", "React Testing Library"]
+  },
+  {
+    "id": 4,
     "title": "Software Engineer Intern",
-    "company": "Guavus, a Thales company",
+    "company": "Guavus",
     "duration": "Jan 2022 - Aug 2022",
     "location": "Gurgaon, India",
-    "description": "Developed and maintained full-stack applications using MERN stack. Implemented RESTful APIs and optimized database queries for better performance.",
+    "description": "Automated build and deployment processes using Jenkins",
     "achievements": [
-      "Created reusable UI components that were implemented across multiple product interfaces",
-      "Implemented CI/CD pipeline using GitHub Actions"
+      "Utilized PXE Boot for automated installation of systems",
+      "Upgraded Helm charts for Kubernetes components to streamline configuration management"
     ],
-    "technologies": ["React", "Docker", "Helm Charts", "k8s"]
+    "technologies": ["Ansible", "Docker", "Helm Charts", "k8s"]
   }
 ]

@@ -1,26 +1,36 @@
 [
   {
     "id": 1,
+    "title": "Conference Management Toolkit",
+    "description": "A full-stack conference management platform for handling paper submissions, peer reviews, and conference workflows. Features include author and reviewer dashboards, submission tracking, role-based access control for organizers, and automated review assignment with status notifications.",
+    "technologies": ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
+    "github": "https://github.com/syedmdsaifihassan",
+    "demo": "https://d1gzw0rzbh5xfk.cloudfront.net/login",
+    "gradient": "#7c3aed, #4f46e5",
+    "displayName": "CMT"
+  },
+  {
+    "id": 2,
     "title": "School Management System",
-    "description": "An School Management System designed to streamline administrative tasks, student management, and communication between teachers, students, and parents. Features include student enrollment, id-card generation, report-card generation, bulk print id-cards, and a user-friendly interface for managing school operations.",
-    "technologies": ["React", "Next.js", "Firebase", "Tailwind CSS"],
+    "description": "A comprehensive school management application using React.js and Next.js with student registration, QR code ID card generation, and automated report card system. Features Firebase Authentication and Firestore for real-time data sync, plus an Excel-style interface for bulk report card creation with automatic grade calculations and print-ready templates.",
+    "technologies": ["React", "Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
     "github": "https://github.com/syedmdsaifihassan/school-management",
     "demo": "https://saifimanagingschool.netlify.app/",
     "gradient": "#2563eb, #1e40af",
     "displayName": "School App"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Real-time Chat Application",
-    "description": "A WhatsApp-inspired real-time messaging application with user authentication, instant messaging, and responsive design. Features include message history, user status, and seamless real-time communication.",
-    "technologies": ["React", "Next.js", "Firebase", "Tailwind CSS"],
+    "description": "A real-time messaging application using React.js and Next.js with event-driven architecture for instant message delivery and user presence tracking. Integrated Google authentication and Firebase backend services with WebSocket connections for real-time communication and message persistence.",
+    "technologies": ["React", "Next.js", "Firebase", "WebSocket", "Tailwind CSS"],
     "github": "https://github.com/syedmdsaifihassan/whatsapp-chat-clone",
     "demo": "https://whatsapp-chat-theta.vercel.app/",
     "gradient": "#10b981, #0d9488",
     "displayName": "Chat App"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Expense Tracker",
     "description": "A comprehensive expense tracking application that helps users monitor their spending habits. Features include expense categorization, budget management, visual charts, and financial insights to promote better money management.",
     "technologies": ["React", "Chart.js", "Local Storage", "Tailwind CSS"],
@@ -28,15 +38,5 @@
     "demo": "https://syedmdsaifihassan.github.io/Expense-Tracker/",
     "gradient": "#3b82f6, #9333ea",
     "displayName": "Expense Tracker"
-  },
-  {
-    "id": 4,
-    "title": "Task Management App",
-    "description": "A collaborative productivity application for team task management with real-time updates. Includes features like task assignment, progress tracking, deadline management, and team collaboration tools.",
-    "technologies": ["React", "Socket.io", "Node.js", "MongoDB"],
-    "github": "https://github.com/syedmdsaifihassan/Todo-list",
-    "demo": "https://syedmdsaifihassan.github.io/Todo-list/",
-    "gradient": "#f97316, #dc2626",
-    "displayName": "Task Manager"
   }
 ]

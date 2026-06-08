@@ -1,14 +1,14 @@
 {
   "name": "Md Saifi Hassan",
-  "title": "Full Stack Software Engineer",
-  "description": "Full Stack Software Engineer with 3+ years of experience building scalable web applications",
-  "location": "New Delhi, India",
-  "experience": "3+ Years Experience",
+  "title": "Software Engineer III",
+  "description": "Software Engineer III with 4 years of experience building scalable web applications and In-Flight Entertainment platforms",
+  "location": "Noida, India",
+  "experience": "4 Years of Experience",
   "status": "Available for Hire",
   "email": "syedsaifihassan@gmail.com",
   "github": "https://github.com/syedmdsaifihassan",
   "linkedin": "https://www.linkedin.com/in/syedmdsaifihassan/",
-  "resume": "/Md_Saifi_Resume_SDE_React.pdf",
+  "resume": "/Md_Saifi_Resume_SDE3.pdf",
   "profileImage": "/profile.jpg",
   "heroBackground": "/hero-section.jpg",
   "blogs": [
@@ -28,9 +28,9 @@
     }
   ],
   "about": {
-    "description1": "As a software engineer with 3+ years in the industry, I've worked extensively with React, Node.js, and Golang to build production-ready applications. My experience spans from developing In-Flight Entertainment systems at Thales to creating scalable web platforms that serve thousands of users daily.",
-    "description2": "I started my career after completing my B.Tech in Computer Science, where I won Smart India Hackathon twice. Since then, I've focused on full-stack development, working with modern technologies like Next.js, TypeScript, and cloud platforms. I enjoy tackling complex technical challenges and building software that performs well at scale.",
-    "traits": ["Full-Stack Development", "System Architecture", "Performance Optimization", "Code Quality"],
+    "description1": "As a Software Engineer III at Thales with 4 years in the industry, I've built production-ready In-Flight Entertainment platforms for airlines including Spirit, Delta, Emirates, and Air India. I work across the full stack with React, TypeScript, Spring Boot, and Golang — from Spring Boot microservices and content ingestion pipelines to performant frontends optimized for low-powered seatback hardware serving millions of passengers.",
+    "description2": "I started my career after completing my B.Tech in Computer Science, where I won Smart India Hackathon twice. Since then, I've focused on full-stack development, CI/CD automation with Jenkins and Docker, and comprehensive testing with Jest and Cypress. I enjoy tackling complex technical challenges and building software that performs reliably at scale.",
+    "traits": ["Full-Stack Development", "Microservices Architecture", "Performance Optimization", "Code Quality"],
     "specialties": [
       {
         "icon": "Code",
@@ -41,7 +41,7 @@
       {
         "icon": "Database",
         "title": "Backend",
-        "description": "Node.js, Python, APIs",
+        "description": "Node.js, Golang, RESTful APIs",
         "color": "text-green-600"
       },
       {
