@@ -1,6 +1,16 @@
 [
   {
     "id": 1,
+    "title": "FeedHire",
+    "description": "A cloud-native job aggregation platform using Java Spring Boot and PostgreSQL, ingesting, normalizing, and enriching 5,000+ job listings daily from 30+ external sources through event-driven microservices. Features RabbitMQ-based async pipelines with dead-letter queues, AI-powered enrichment and semantic search via OpenAI APIs and pgvector, OAuth2/JWT authentication, Redis caching for sub-300ms search, and Kubernetes deployment on Oracle Cloud with GitHub Actions CI/CD and Prometheus monitoring.",
+    "technologies": ["Java", "Spring Boot", "PostgreSQL", "Redis", "RabbitMQ", "Docker", "Kubernetes", "OpenAI APIs"],
+    "github": "https://github.com/syedmdsaifihassan",
+    "demo": "https://feedhire.me",
+    "gradient": "#059669, #047857",
+    "displayName": "FeedHire"
+  },
+  {
+    "id": 2,
     "title": "Conference Management Toolkit",
     "description": "A full-stack conference management platform for handling paper submissions, peer reviews, and conference workflows. Features include author and reviewer dashboards, submission tracking, role-based access control for organizers, and automated review assignment with status notifications.",
     "technologies": ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
@@ -10,7 +20,7 @@
     "displayName": "CMT"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "School Management System",
     "description": "A comprehensive school management application using React.js and Next.js with student registration, QR code ID card generation, and automated report card system. Features Firebase Authentication and Firestore for real-time data sync, plus an Excel-style interface for bulk report card creation with automatic grade calculations and print-ready templates.",
     "technologies": ["React", "Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
@@ -20,7 +30,7 @@
     "displayName": "School App"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Real-time Chat Application",
     "description": "A real-time messaging application using React.js and Next.js with event-driven architecture for instant message delivery and user presence tracking. Integrated Google authentication and Firebase backend services with WebSocket connections for real-time communication and message persistence.",
     "technologies": ["React", "Next.js", "Firebase", "WebSocket", "Tailwind CSS"],
@@ -30,7 +40,7 @@
     "displayName": "Chat App"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Expense Tracker",
     "description": "A comprehensive expense tracking application that helps users monitor their spending habits. Features include expense categorization, budget management, visual charts, and financial insights to promote better money management.",
     "technologies": ["React", "Chart.js", "Local Storage", "Tailwind CSS"],

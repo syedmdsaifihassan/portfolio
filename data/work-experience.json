@@ -49,12 +49,15 @@
     "title": "Software Engineer Intern",
     "company": "Guavus",
     "duration": "Jan 2022 - Aug 2022",
-    "location": "Gurgaon, India",
-    "description": "Automated build and deployment processes using Jenkins",
+    "location": "Gurugram, India",
+    "description": "Platform engineering intern focused on build automation, infrastructure provisioning, and Kubernetes operations at Guavus.",
     "achievements": [
-      "Utilized PXE Boot for automated installation of systems",
-      "Upgraded Helm charts for Kubernetes components to streamline configuration management"
+      "Automated build, release, and deployment workflows using Jenkins, reducing manual operational effort and improving deployment consistency across environments",
+      "Implemented PXE Boot-based provisioning workflows for large-scale server deployments, streamlining operating system installation and infrastructure setup processes",
+      "Upgraded and maintained Helm charts for Kubernetes workloads, improving configuration management, deployment reliability, and environment standardization",
+      "Collaborated with platform engineering teams to troubleshoot containerized applications, monitor cluster health, and support production infrastructure running on Kubernetes",
+      "Developed automation scripts and operational tooling to reduce repetitive administrative tasks, improving engineering productivity and deployment efficiency"
     ],
-    "technologies": ["Ansible", "Docker", "Helm Charts", "k8s"]
+    "technologies": ["Jenkins", "Kubernetes", "Helm", "Docker", "PXE Boot", "Linux"]
   }
 ]
