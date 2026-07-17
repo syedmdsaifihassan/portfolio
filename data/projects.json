@@ -15,12 +15,22 @@
     "description": "A full-stack conference management platform for handling paper submissions, peer reviews, and conference workflows. Features include author and reviewer dashboards, submission tracking, role-based access control for organizers, and automated review assignment with status notifications.",
     "technologies": ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
     "github": "https://github.com/syedmdsaifihassan",
-    "demo": "https://d1gzw0rzbh5xfk.cloudfront.net/login",
+    "demo": "https://www.ui-cmt.com/",
     "gradient": "#7c3aed, #4f46e5",
     "displayName": "CMT"
   },
   {
     "id": 3,
+    "title": "Parchhai Studio",
+    "description": "A full-stack creative studio portfolio with React.js featuring scroll-driven animations, SPA navigation, and an admin dashboard with rich-text editing, drag-and-drop media uploads, and JWT-authenticated CRUD. Includes a FastAPI chunked video upload system (up to 50 MB) and a responsive dark-themed UI with glassmorphism cards, marquee animations, and mobile-first layouts.",
+    "technologies": ["React.js", "Tailwind CSS", "FastAPI", "Python", "MongoDB", "Docker"],
+    "github": "https://github.com/syedmdsaifihassan",
+    "demo": "https://syedmdsaifihassan-parchhai-studio.hf.space/",
+    "gradient": "#f59e0b, #d97706",
+    "displayName": "Parchhai Studio"
+  },
+  {
+    "id": 4,
     "title": "School Management System",
     "description": "A comprehensive school management application using React.js and Next.js with student registration, QR code ID card generation, and automated report card system. Features Firebase Authentication and Firestore for real-time data sync, plus an Excel-style interface for bulk report card creation with automatic grade calculations and print-ready templates.",
     "technologies": ["React", "Next.js", "Firebase", "TypeScript", "Tailwind CSS"],
@@ -30,7 +40,7 @@
     "displayName": "School App"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Real-time Chat Application",
     "description": "A real-time messaging application using React.js and Next.js with event-driven architecture for instant message delivery and user presence tracking. Integrated Google authentication and Firebase backend services with WebSocket connections for real-time communication and message persistence.",
     "technologies": ["React", "Next.js", "Firebase", "WebSocket", "Tailwind CSS"],
@@ -40,7 +50,7 @@
     "displayName": "Chat App"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Expense Tracker",
     "description": "A comprehensive expense tracking application that helps users monitor their spending habits. Features include expense categorization, budget management, visual charts, and financial insights to promote better money management.",
     "technologies": ["React", "Chart.js", "Local Storage", "Tailwind CSS"],
